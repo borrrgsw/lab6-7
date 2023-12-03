@@ -1,21 +1,35 @@
 # lab6-7
 ## flowchart
 ![gambar](flowchart.png)
-Dibawah ini adalah code untuk meng-import, karena kita akan gunakan system, untuk mendapatkan clear screen yang ada dalam system os, jika kita perhatikan, disetiap function yang kita buat, terdapat syntax system('cls'), syntax tersebut lah yang kita gunakan dalam hal import system ini. maka kita import terlebih dahulu, berikut code nya:
+- Dibawah ini adalah code untuk meng-import, karena kita akan gunakan system, untuk mendapatkan clear screen yang ada dalam system os, jika kita perhatikan, disetiap function yang kita buat, terdapat syntax ```system('cls')```, syntax tersebut lah yang kita gunakan dalam hal import system ini. maka kita import terlebih dahulu, berikut code nya:
+
+```python
 from os import system
-Dibawah ini code untuk membuat list yang akan kita gunakan, karena program yang akan kita buat adalah program daftar nilai mahasiswa, maka kita buat terlebih dahulu list nya
+```
+
+- Dibawah ini code untuk membuat list yang akan kita gunakan, karena program yang akan kita buat adalah program daftar nilai mahasiswa, maka kita buat terlebih dahulu list nya
+
+```python
 s_nama = []
 s_nim = []
 s_tugas = []
 s_uts = []
 s_uas = []
 s_akhir = []
-Dibawah ini code untuk membuat fungsi judul, karena didalam fungsi, kita dapat memanggil fungsi tersebut berkali-kali tanpa harus mengulang codingannya, hanya perlu dengan cara memanggil fungsi ( contohnya: fungsi() ), setiap kita akan membuat fungsi, maka harus di awali dengan def dan diikuti dengan nama fungsi yang akan kita buat dan gunakan selanjutnya.
+```
+
+- Dibawah ini code untuk membuat fungsi judul, karena didalam fungsi, kita dapat memanggil fungsi tersebut berkali-kali tanpa harus mengulang codingannya, hanya perlu dengan cara memanggil fungsi ( contohnya: fungsi() ), setiap kita akan membuat fungsi, maka harus di awali dengan ```def``` dan diikuti dengan nama fungsi yang akan kita buat dan gunakan selanjutnya.
+
+```python
 def judul():
     print('==================================')
     print('|     Daftar Nilai Mahasiswa     |')
     print('==================================')
-Dibawah adalah code untuk membuat fungsi menu
+```
+
+- Dibawah adalah code untuk membuat fungsi menu
+
+```python
 def menu():
     system('cls')
     print('=====================================')
@@ -42,3 +56,7 @@ def menu():
         tidak = input('Menu Tidak Ada')
         system('cls')
         menu()
+```
+
+- berikut tampilan ketika program dijalankan
+- ![gambar](ss1.png)
