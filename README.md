@@ -98,3 +98,5 @@ def tambah():
 - berikut tampilan ketika program dijalankan
 
 - ![gambar](ss2.png)
+- ![gambar](ss3.png)
+## Sekian praktikum function pada python ini di buat, Terima kasih.
